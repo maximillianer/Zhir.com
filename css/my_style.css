@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: local('../fonts/Playfair Display SC Black'), local('../fonts/Playfair-Display-SC-Black'),
+    url('../fonts/PlayfairDisplaySC-Black.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplaySC-Black.woff') format('woff'),
+    url('../fonts/PlayfairDisplaySC-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: local('../fonts/Oswald Extra Light'), local('../fonts/Oswald-Extra-Light'),
+    url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
+    url('../fonts/Oswald-ExtraLight.woff') format('woff'),
+    url('../fonts/Oswald-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.header {
+    background: url("../images/head.jpg") no-repeat center top;
+    background-size: cover;
+    display: block;
+    color: white;
+    min-height: 470px;
+    max-width: 100%;
+
+}
+
+h1 {
+    font-family: 'Playfair Display SC';
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center center;
+    font-size: 17rem;
+    padding-bottom: 1px;
+
+}
+
+h5 {
+    font-family: 'Oswald';
+    text-align: center;
+    padding-top: 15px;
+}
+
+.lead {
+    font-family: 'Oswald';
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+
+}
+.a {
+    font-family: 'Oswald';
+    margin-right: 15px;
+
+}
+
+
+
+p1 {
+    font-family: 'Playfair Display SC';
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Oswald';
+    font-size: medium;
+    color: #3d4344;
+    text-indent: 30px;
+    margin-right: 15px;
+}
+
+.mycard {
+    margin-top: 150px;
+    max-height: 450px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.command {
+    display: flex;
+}
+
+
+.image {
+    border-radius: 50%;
+    max-width: 40%;
+    justify-items: center;
+
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    color: blue;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.anons {
+    justify-content: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 30px;
+
+}
+.media {
+    background-color: gainsboro;
+    padding: 1px, solid black;
+}
+
+@media (max-width: 796px) {
+    h1 {
+        font-size: 13rem;
+    }
+    .header {
+            min-height: 350px;
+        }
+    .lead {
+        font-size: 1.5rem;
+    }
+
+    @media (max-width: 752px) {
+        .mr-3 {
+            width="50%" height="50%"
+        }
+    }
+
+@media (max-width: 636px) {
+    .lead {
+        font-size: 1.3rem;
+    }
+    h1 {
+        font-size: 10rem;
+    }
+    .header {
+        min-height: 300px;
+    }
+    }
+}
+}
+
+@media (max-width: 550px) {
+    h1 {
+       font-size: 11rem;
+       }
+    }
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 10rem;
+    }
+@media (max-width: 434px) {
+    h1 {
+        font-size: 8rem;
+    }
+    .header {
+        min-height: 250px;
+    }
+}
+
+ @media (max-width: 390px) {
+     h1 {
+         font-size: 7rem;
+     }
+     .lead {
+     font-size: 1rem}
+     .header {
+         min-height: 200px;
+     }
+ }
+
+ @media (max-width: 340px) {
+     h1 {
+         font-size: 6rem;
+     }
+
+     .lead {
+         font-size: 1rem
+     }
+     .header {
+         min-height: 150px;
+     }
+ }
+

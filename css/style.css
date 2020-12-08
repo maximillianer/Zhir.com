@@ -1,0 +1,17 @@
+@import "../bootstrap-4.4.1/scss/bootstrap-reboot.scss";
+@import "../bootstrap-4.4.1/scss/_utilities.scss";
+@import "../bootstrap-4.4.1/scss/_grid.scss";
+@import "../bootstrap-4.4.1/scss/_buttons.scss";
+@import "../bootstrap-4.4.1/scss/_alert.scss";
+@import "../bootstrap-4.4.1/scss/_badge.scss";
+@import "../bootstrap-4.4.1/scss/_tooltip.scss";
+@import "../bootstrap-4.4.1/scss/_transitions.scss";
+@import "../bootstrap-4.4.1/scss/_popover.scss";
+@import "../bootstrap-4.4.1/scss/_type.scss";
+@import "../bootstrap-4.4.1/scss/_nav.scss";
+@import "../bootstrap-4.4.1/scss/_navbar.scss";
+@import "../bootstrap-4.4.1/scss/_images.scss";
+@import "variables.scss";
+
+@import "my_style.css";
+
